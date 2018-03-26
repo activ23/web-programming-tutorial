@@ -6,20 +6,30 @@ function countTo(n) {
 
 }
 
-countTo(7);
 
 function addNumber(a, b) {
     console.info('primul numar este' + a);
     console.info('al doilea numar este' + b);
-    for (; b > 0;) {
+    // var suma=a;
+    // var degete=b;
 
-        b--;
-        a++;
-
-        console.info(a + '- au mai ramas' + b + 'trei degetele')
-    }
-    console.info('suma este:' + a)
+if(a<b){
+    suma=b;
+    degete=a;
 }
+    while (degete){
+
+        // a--;
+        // b++;
+
+    }
+
+
+
+        console.info(suma + '- au mai ramas' + degete + 'trei degetele');
+    }
+    console.info('suma este:' + suma);
+
 
 var count = addNumber(5, 3);
 console.log(count);
