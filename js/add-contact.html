@@ -1,0 +1,20 @@
+<html>
+    <body>
+<h1>Multumim pentru cerere</h1>
+
+<p><a href="../phone-book.html">te ruham sa revi mai tarziu</a></p>
+
+<script>
+    var search= window.location.search.substring(1);
+    var keys= search.split("&");
+    var v= ();
+    keys.forEach(function(keys){
+        var properties= key.split('=');
+        v[properties[0]]= properties[1];
+    });
+
+    document.write(JSON.stringfy(v));
+
+</script>
+    </body>
+</html>
